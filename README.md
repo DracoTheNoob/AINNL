@@ -133,5 +133,5 @@ Fine ! By executing this code, the values of the network that are displayed are 
 
 
 In theory, you can create layer with id from 0 to 32'767, because the layer id is short number.
-Same the layer, so the maximum amount of neurons in a network is 32'767² = 1'073'676'289.
+Same for neurons in layers, so the maximum amount of neurons in a network is 32'767² = 1'073'676'289.
 I think this is a sufficient amount of neurons.
