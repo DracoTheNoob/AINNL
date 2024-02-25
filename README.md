@@ -15,7 +15,7 @@ Layer layer = new Layer((short)0);
 
 network.addLayer(layer);
 ```
-The "(short)0" is the id of the layer, it is 0 because the layer is the first of the network.
+The "(short)0" is the id of the layer, it is 0 because the layer is the first of the network. Since we are supposed to use large amount of data in a neural network, to avoid using too many the RAM, short are use and not int.
 
 ## Adding a first neuron ##
 But now, it's the layer that is empty, let's add a neuron to it :
